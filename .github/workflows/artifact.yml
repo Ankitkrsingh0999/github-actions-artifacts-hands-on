@@ -33,4 +33,4 @@ jobs:
       uses: actions/checkout@v4
       
     - name: read artifact file
-      run: cat ./artfacts/hello.txt
+      run: cat ./artifacts/hello.txt
