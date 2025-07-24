@@ -29,5 +29,8 @@ jobs:
         name: hello-artifact
         path: ./artifacts
 
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
     - name: read artifact file
       run: cat ./artfacts/hello.txt
